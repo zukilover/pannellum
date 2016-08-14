@@ -7,7 +7,7 @@
     width: 100%;
     height: 100%;
     font-family: "Gotham Pro", Arial, sans-serif;
-    background: #f4f4f4 url('img/background.svg') repeat;
+    background: #f4f4f4 url('../images/background.svg') repeat;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -24,15 +24,15 @@
 }
 
 .pnlm-grab {
-    cursor: url('img/grab.svg') 12 8, default;
+    cursor: url('../images/grab.svg') 12 8, default;
 }
 
 .pnlm-grabbing {
-    cursor: url('img/grabbing.svg') 12 8, default;
+    cursor: url('../images/grabbing.svg') 12 8, default;
 }
 
 .pnlm-sprite {
-    background-image: url('img/sprites.svg');
+    background-image: url('../images/sprites.svg');
 }
 
 .pnlm-container:-moz-full-screen {
@@ -375,7 +375,7 @@ div.pnlm-tooltip:hover span:after {
     right: 4px;
     bottom: 4px;
     border-radius: 25px;
-    background-image: url('img/compass.svg');
+    background-image: url('../images/compass.svg');
     cursor: default;
     display: none;
 }
